@@ -30,9 +30,9 @@ function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="admissions" element={<Admission />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<Error_page />} />
         </Route>
 
+        <Route path="*" element={<Error_page />} />
 
       </Routes >
     </>
