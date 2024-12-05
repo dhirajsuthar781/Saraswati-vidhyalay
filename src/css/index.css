@@ -1,0 +1,49 @@
+/* font_import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+     font-family: 'Bavista_Soulare';
+     src: url('../fonts/Bavista_Soulare.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+.text_type_one {
+     @apply font-Poppins text-[16px] leading-[24px] font-[400];
+}
+ 
+.text_type_Bavista {
+     @apply font-Bavista_Soulare text-bavista_text text-[44px] leading-[46px] font-[400];
+}
+.text_type_frameTitle {
+     @apply font-Poppins text-bavista_text text-[20px] leading-[30px] font-[600];
+}
+.text_type_footerCategory {
+     @apply font-Poppins text-bavista_text text-[20px] leading-[30px] font-[500];
+}
+.text_type_frameState {
+     @apply font-Poppins text-bavista_text text-[14px] leading-[21px] font-[400];
+}
+
+
+
+
+.shadow_6px {
+     @apply rounded-[10px] border-[6px] border-white shadow-[0_0_34px_#00000059];
+}
+.shadow_8px {
+     @apply rounded-[50%] border-[8px] border-white shadow-[0_0_34px_#00000059];
+}
+.shadow_10px {
+     @apply rounded-[14px] border-[10px] border-white shadow-[0_0_34px_#00000059];
+}
+.shadow_frame {
+     @apply rounded-[14px] border-[10px] border-white shadow-[0_0_24px_#91919159];
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
