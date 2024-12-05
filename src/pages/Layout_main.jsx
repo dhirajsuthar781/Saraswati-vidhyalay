@@ -2,17 +2,22 @@ import React from 'react'
 import { Outlet } from 'react-router'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Wraper from '../components/Wraper'
+
 
 function Layout_main() {
      return (
-          <Wraper>
+          <div className='  bg-whiteis_bg  h-screen flex flex-col justify-between items-start  w-full'>
                <Navbar />
-               <div className=' overflow-auto  w-full   max-w-screen-2xl   h-full'>
-                    <Outlet />
-                    <Footer />
+
+               <div className=' overflow-auto  w-full      h-full'>
+                    <div className='mx-auto w-full max-w-screen-2xl '>
+                     
+                         <Outlet />
+                         <Footer />
+                    </div>
                </div>
-          </Wraper>
+          </div >
+
      )
 }
 
