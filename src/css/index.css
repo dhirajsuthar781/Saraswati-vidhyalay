@@ -23,7 +23,7 @@
      @apply font-Poppins text-bavista_text text-[20px] leading-[30px] font-[500];
 }
 .text_type_frameState {
-     @apply font-Poppins text-bavista_text text-[14px] leading-[21px] font-[400];
+     @apply font-Poppins text-blackis text-[14px] leading-[21px] font-[400];
 }
 
 
@@ -31,9 +31,10 @@
 
 .shadow_6px {
      @apply rounded-[10px] border-[6px] border-white shadow-[0_0_34px_#00000059];
-}
+} 
+ 
 .shadow_8px {
-     @apply rounded-[50%] border-[8px] border-white shadow-[0_0_34px_#00000059];
+     @apply rounded-[50%] border-[8px] border-white shadow-[0px_4px_34px_0px_#00000059];
 }
 .shadow_10px {
      @apply rounded-[14px] border-[10px] border-white shadow-[0_0_34px_#00000059];

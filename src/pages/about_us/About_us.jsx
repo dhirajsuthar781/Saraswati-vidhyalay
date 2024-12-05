@@ -1,7 +1,22 @@
 import React from 'react'
 
+import History_section from './History_section'
+import Trustees_section from './Trustees_section'
+import Ourpillars_section from './Ourpillars_section'
+import Teams_section from './Teams_section'
+
 export default function About_us() {
      return (
-          <div>About_us</div>
+          <div>
+
+               <History_section />
+               <Trustees_section />
+               <Ourpillars_section />
+               <Teams_section />
+
+              
+
+
+          </div>
      )
 }
