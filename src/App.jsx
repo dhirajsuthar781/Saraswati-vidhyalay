@@ -3,6 +3,7 @@ import './css/App.css'
 import { lazy } from 'react';
 
 const Home_page = lazy(() => import('./pages/home_page/Home_page'));
+const Error_page = lazy(() => import('./pages/error_page/Error_page'));
 const About_us = lazy(() => import('./pages/about_us/About_us'));
 const Layout_main = lazy(() => import('./pages/Layout_main.jsx'));
 const Academic_culture = lazy(() => import('./pages/academic-culture/Academic_culture'));
@@ -11,6 +12,8 @@ const Co_curriculum = lazy(() => import('./pages/co_curriculum/Co_curriculum'));
 const Gallery = lazy(() => import('./pages/gallery/Gallery'));
 const Admission = lazy(() => import('./pages/admissions/Admission'));
 const Contact = lazy(() => import('./pages/contact/Contact'));
+
+
 
 function App() {
 
@@ -29,7 +32,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Route>
 
-        <Route path="*" element={<p>No page</p>} />
+        <Route path="*" element={<Error_page />} />
 
       </Routes >
     </>
