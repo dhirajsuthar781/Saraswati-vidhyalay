@@ -8,14 +8,14 @@ export default function Title({ data, line_width, pencil_width, class_line, clas
                <p className='text_type_Bavista'>{data}</p>
                <img
                     className={class_line}
-                    src="./src/assets/lines.png"
+                    src="/assets/lines.png"
                     loading='lazy'
                     alt='line'
                     width={line_width}
                />
                <img
                     className={class_pencil}
-                    src="./src/assets/pencil.png"
+                    src="/assets/pencil.png"
                     loading='lazy'
                     alt='pencil'
                     width={pencil_width}
