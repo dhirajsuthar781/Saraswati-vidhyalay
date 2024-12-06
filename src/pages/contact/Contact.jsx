@@ -1,7 +1,12 @@
 import React from 'react'
+import Contact_section from './Contact_section'
+import Location_section from './Location_section'
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <Location_section />
+      <Contact_section />
+    </div>
   )
 }

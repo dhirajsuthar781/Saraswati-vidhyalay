@@ -12,19 +12,23 @@
 .text_type_one {
      @apply font-Poppins text-[16px] leading-[24px] font-[400];
 }
- 
+
 .text_type_Bavista {
      @apply font-Bavista_Soulare text-bavista_text text-[44px] leading-[46px] font-[400];
 }
+
 .text_type_frameTitle {
      @apply font-Poppins text-bavista_text text-[20px] leading-[30px] font-[600];
 }
+
 .text_type_HeaderPara {
      @apply font-Poppins text-[#555555] text-[18px] leading-[37px] font-[400];
 }
+
 .text_type_HeaderSpan {
      @apply font-Poppins text-bavista_text text-[18px] leading-[37px] font-[700];
 }
+
 .text_type_frameState {
      @apply font-Poppins text-blackis text-[14px] leading-[21px] font-[400];
 }
@@ -34,14 +38,17 @@
 
 .shadow_6px {
      @apply rounded-[10px] border-[6px] border-white shadow-[0_0_34px_#00000059];
-} 
- 
+}
+
 .shadow_8px {
      @apply rounded-[50%] border-[8px] border-white shadow-[0px_4px_34px_0px_#00000059];
 }
+
 .shadow_10px {
-     @apply rounded-[14px] border-[10px] border-white shadow-[0_0_34px_#00000059];
+
+     @apply rounded-[14px] border-[10px] border-white shadow-[0_2px_34px_0px_#00000059];
 }
+
 .shadow_frame {
      @apply rounded-[14px] border-[10px] border-white shadow-[0_0_24px_#91919159];
 }
