@@ -17,6 +17,9 @@ export default {
       },
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
+        Inter: ['Inter', 'sans-serif'],
+        Montserrat: ['Montserrat', 'sans-serif'],
+        Nunito: ['Nunito', 'sans-serif'],
         Bavista_Soulare: ['Bavista_Soulare', 'sans-serif'],
       },
 
