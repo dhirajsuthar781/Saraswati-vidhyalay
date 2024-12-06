@@ -8,14 +8,10 @@ import Teams_section from './Teams_section'
 export default function About_us() {
      return (
           <div>
-
                <History_section />
                <Trustees_section />
                <Ourpillars_section />
                <Teams_section />
-
-              
-
 
           </div>
      )

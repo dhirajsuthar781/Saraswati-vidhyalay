@@ -2,6 +2,9 @@ import React from 'react'
 import Title from '../../components/Title'
 import { trustees_data } from '../../utlis/dummy_data'
 import Card_trustee from './Card_trustee'
+
+
+
 export default function Trustees_section() {
   return (
     <div className=' w-full bg-white mt-2.5  space-y-24 pt-12 pb-36'>
