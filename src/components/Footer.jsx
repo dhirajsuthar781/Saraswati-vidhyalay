@@ -47,8 +47,8 @@ export default function Footer() {
                          {/* links */}
                          <div className=' w-1/2 space-y-4'>
                               {
-                                   navLinks?.map((link) => (
-                                        <div className={`${link.title === 'Gallery' ? ' hidden' : ''}`}>
+                                   navLinks?.map((link,index) => (
+                                        <div key={index} className={`${link.title === 'Gallery' ? ' hidden' : ''}`}>
                                              <NavLink to={link.path} className='text_type_frameTitle font-medium  hover:font-bold hover:text-secondary transition-all duration-200 '>{link.title}</NavLink>
                                         </div>
                                    ))

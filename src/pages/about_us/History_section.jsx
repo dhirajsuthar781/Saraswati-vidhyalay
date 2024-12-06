@@ -7,7 +7,7 @@ import Svg from './Svg'
 
 export default function History_section() {
   return (
-    <div className=' w-full bg-white mt-2.5  pt-12  relative pb-20'>
+    <div className=' w-full bg-white mt-2.5  pt-12  relative  '>
 
       <img src="/assets/sidegirl.png" alt="girls" className=' absolute w-[220px] h-[220px] left-0 bottom-0 ' />
 
