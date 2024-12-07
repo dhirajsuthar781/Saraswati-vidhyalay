@@ -1,6 +1,7 @@
-import { Route, Routes } from 'react-router'
+import { Route, Routes, useLocation } from 'react-router'
 import './css/App.css'
 import { lazy } from 'react';
+
 
 const Home_page = lazy(() => import('./pages/home_page/Home_page'));
 const Error_page = lazy(() => import('./pages/error_page/Error_page'));
@@ -16,6 +17,7 @@ const Contact = lazy(() => import('./pages/contact/Contact'));
 
 
 function App() {
+ 
 
   return (
     <>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import History_section from './History_section'
 import Trustees_section from './Trustees_section'
@@ -7,13 +7,22 @@ import Teams_section from './Teams_section'
 import Board_of_governance from './Board_of_governance'
 
 export default function About_us() {
+
+
+     useEffect(() => {
+          window.scrollTo({
+               top: 0,
+               behavior: 'smooth',  
+          });
+     })
+
      return (
           <div>
                <History_section />
                <Trustees_section />
                <Ourpillars_section />
                <Teams_section />
-               <Board_of_governance/>
+               <Board_of_governance />
 
           </div>
      )

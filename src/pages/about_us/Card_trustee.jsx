@@ -25,7 +25,7 @@ export default function Card_trustee({ data }) {
 
                     <p className='text_type_frameTitle w-fit transition-all text-center duration-[450ms]    translate-x-0 group-hover:translate-x-[43%] group-hover:text-[18px] group-hover:leading-[27px] '>{data?.title}</p>
 
-                    <p className='text_type_frameState w-fit   translate-x-0 group-hover:translate-x-[70%] text-center  transition-all duration-[450ms] '>{data?.disc} <span className=' font-semibold'>{data?.highlight_disc}</span></p>
+                    <p className='text_type_frameState w-fit   translate-x-0 group-hover:translate-x-[68%] text-center  transition-all duration-[450ms] '>{data?.disc} <span className=' font-semibold'>{data?.highlight_disc}</span></p>
 
                </div>
           </div>

@@ -12,10 +12,14 @@ export default function Home_page() {
      const { todo } = useSelector((state) => state.UserStore)
      const dispatch = useDispatch()
 
-     // useEffect(() => {
-     //      dispatch(fetchTodo())
-     // }, [])
- 
+     
+     useEffect(() => {
+          // dispatch(fetchTodo())
+          window.scrollTo({
+               top: 0,
+               behavior: 'smooth',  
+          });
+     })
      return (
           <div>
                <Hero_swiper />

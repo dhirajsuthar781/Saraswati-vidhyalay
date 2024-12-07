@@ -124,3 +124,40 @@ export const board_data = [
           link: "/"
      },
 ]
+
+
+export const timeline_data = [
+     {
+          day:"1",
+          month:"January",
+     },
+     {
+          day:"2",
+          month:"January",
+     },
+     {
+          day:"3",
+          month:"January",
+     },
+     {
+          day:"4",
+          month:"January",
+     },
+     {
+          day:"5",
+          month:"January",
+     },
+     {
+          day:"6",
+          month:"January",
+     },
+     {
+          day:"7",
+          month:"January",
+     },
+     {
+          day:"8",
+          month:"January",
+     },
+     
+]
